@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="Fr">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css" >
+    <title>AfriConnect Summit - Accueil</title>
+  </head>
+  <body>
+    <!--===================================================== 
+              barre de navigation communne a toutes les pages
+         ========================================================= -->
+
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <img
+              src="images/LogoAfriconnectSummit.png"
+              alt="Logo AfriConnect"
+              width="120">
+            <a href="index.html">AfriConnect</a>
+          </div>
+
+          <button class="burger" id="burger">☰</button>
+
+          <div class="nav-menu" id="nav-menu">
+            <ul class="nav-links">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="programme.html">Programme</a></li>
+              <li><a href="intervenants.html">Intervenants</a></li>
+              <li><a href="contact.html">Inscription & Contact</a></li>
+            </ul>
+
+            <button id="theme-btn" class="theme-btn">☀️</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- =======================================================
+             section hero
+     ======================================================== -->
+
+      <section class="hero">
+        <div class="texte-container">
+          <h1 class="titre-pricipal">
+            Réunir les développeurs, les innovateurs et les entrepreneurs qui
+            façonnent l'avenir numérique de l'Afrique.
+          </h1>
+          <h2 class="sous-titre">
+            📍 Diamniadio, Sénégal • 18–20 septembre 2026
+          </h2>
+        </div>
+        <div class="btn-container">
+
+          <a href="contact.html" class="btn ">S'inscrire Maintenant</a>
+
+          <a href="programme.html" class="btn">Explorer le Programme</a>
+        </div>
+
+        <div class="compte-a-rebours">
+          <div>
+            <h2 id="jours">00</h2>
+            <span>Jours</span>
+          </div>
+
+          <div>
+            <h2 id="heures">00</h2>
+            <span>Heures</span>
+          </div>
+
+          <div>
+            <h2 id="minutes">00</h2>
+            <span>Minutes</span>
+          </div>
+
+          <div>
+            <h2 id="secondes">00</h2>
+            <span>Secondes</span>
+          </div>
+        </div>
+      </section>
+
+      <!--============================
+        section chiffres cles  
+     ===========================-->
+      <section class="stats-section">
+        <div class="stats-container">
+          <h2 class="titre">Les chiffres clés</h2>
+
+          <p class="sous-titre">
+            Des milliers de passionnés réunis pour trois jours d'innovation, de
+            conférences et de networking.
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="icon">👥</div>
+              <h2 class="counter" data-target="1200">0</h2>
+              <p>Participants</p>
+            </div>
+
+            <div class="stat-card">
+              <div class="icon">🎤</div>
+              <h2 class="counter" data-target="48">0</h2>
+              <p>Intervenants</p>
+            </div>
+
+            <div class="stat-card">
+              <div class="icon">📅</div>
+              <h2 class="counter" data-target="3">0</h2>
+              <p>Jours</p>
+            </div>
+
+            <div class="stat-card">
+              <div class="icon">🌍</div>
+              <h2 class="counter" data-target="12">0</h2>
+              <p>Pays représentés</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pourquoi-participer">
+        <div class="why-container">
+          <h2 class="titre">Pourquoi participer ?</h2>
+
+          <p class="sous-titre">
+            Rejoignez une communauté de professionnels, d'étudiants et
+            d'entrepreneurs pour vivre une expérience enrichissante.
+          </p>
+
+          <div class="why-container">
+            <div class="why-card">
+              <div class="icon">
+                <i class="bi bi-people-fill"></i>
+              </div>
+
+              <h3>Networking</h3>
+
+              <p>
+                Rencontrez des développeurs, startups, investisseurs et experts
+                venus de toute l'Afrique.
+              </p>
+            </div>
+
+            <div class="why-card">
+              <div class="icon">
+                <i class="bi bi-lightbulb-fill"></i>
+              </div>
+
+              <h3>Innovation</h3>
+
+              <p>
+                Découvrez les dernières tendances en intelligence artificielle,
+                cybersécurité, cloud et développement web.
+              </p>
+            </div>
+
+            <div class="why-card">
+              <div class="icon">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+
+              <h3>Apprentissage</h3>
+
+              <p>
+                Assistez à des conférences inspirantes et participez à des
+                ateliers pratiques animés par des spécialistes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============================
+           section intervenants 
+        ==================================-->
+
+      <section class="intervenants-section">
+        <div class="container">
+          <h2 class="titre">Nos Intervenants</h2>
+
+          <p class="sous-titre">
+            Découvrez les experts qui partageront leur expérience et leur vision
+            de l'avenir du numérique en Afrique.
+          </p>
+
+          <div class="intervenant-grid">
+            <!-- intervenant 1 -->
+
+            <div class="intervenant-card">
+              <div class="intervenant-image">
+                <img src="images/speaker1.jpg" alt="Amina Diallo" >
+              </div>
+
+              <div class="intervenant-content">
+                <h3>Amina Diallo</h3>
+
+                <h4>CTO • TechNova</h4>
+
+                <span class="country">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  Sénégal
+                </span>
+              </div>
+            </div>
+
+            <!-- intervenant 2 -->
+
+            <div class="intervenant-card">
+              <div class="intervenant-image">
+                <img src="images/speaker2.jpg" alt="John Mensah" >
+              </div>
+
+              <div class="intervenant-content">
+                <h3>John Mensah</h3>
+
+                <h4>Cloud Engineer • Google</h4>
+
+                <span class="country">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  Ghana
+                </span>
+              </div>
+            </div>
+
+            <!-- intervenant 3 -->
+
+            <div class="intervenant-card">
+              <div class="intervenant-image">
+                <img src="images/speaker3.jpg" alt="Sarah Njeri" >
+              </div>
+
+              <div class="intervenant-content">
+                <h3>Sarah Njeri</h3>
+
+                <h4>AI Researcher • Microsoft</h4>
+
+                <span class="country">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  Kenya
+                </span>
+              </div>
+            </div>
+
+            <!-- intervenant 4 -->
+
+            <div class="intervenant-card">
+              <div class="intervenant-image">
+                <img src="images/speaker4.jpg" alt="David Okoro" >
+              </div>
+
+              <div class="intervenant-content">
+                <h3>David Okoro</h3>
+
+                <h4>CEO • StartupHub Africa</h4>
+
+                <span class="country">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  Nigeria
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-5">
+            <a href="intervenants.html" class="btn">
+              Voir tous les intervenants
+
+              <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--===========================
+           section partenaires 
+       ============================-->
+
+      <section class="partenaires-section">
+        <div class="container">
+          <h2 class="titre">Nos Partenaires</h2>
+        </div>
+        <div class="partenaires-logos">
+          <div class="partenaire-Or">
+            <img src="images/ios-17-og.jpg" alt="Partenaire 1" >
+            <img src="images/sponsort-or.jpeg" alt="partenaire 2" >
+          </div>
+        </div>
+        <div class="partenaire-Argent">
+          <img src="images/ornage.jpg" alt="Partenaire 3" >
+          <img src="images/wave-senegal-mobile-money.png" alt="Partenaire 4" >
+          <img src="images/yas.png" alt="Partenaire 5" >
+        </div>
+        <div class="partenaire-Bronze">
+          <img src="images/tecno.jpg" alt="Partenaire 6" >
+          <img src="images/REDMI-logo-1.jpg" alt="Partenaire 7" >
+          <img src="images/marque-samsung.jpg" alt="Partenaire 8" >
+          <img src="images/bronze-sponsor.jpg" alt="Partenaire 9" >
+        </div>
+      </section>
+    </main>
+
+    <!--==========================================
+           footer commune a toutes les pages 
+     ==============================================-->
+
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Colonne 1 -->
+          <div class="footer-column">
+            <h2>AfriConnect Summit</h2>
+            <p>
+              La conférence panafricaine qui rassemble développeurs,
+              entrepreneurs et innovateurs pour construire l'Afrique numérique
+              de demain.
+            </p>
+          </div>
+
+          <!-- Colonne 2 -->
+          <div class="footer-column">
+            <h3>Liens utiles</h3>
+
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="programme.html">Programme</a></li>
+              <li><a href="intervenants.html">Intervenants</a></li>
+              <li><a href="sponsors.html">Sponsors</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Colonne 3 -->
+          <div class="footer-column">
+            <h3>Suivez-nous</h3>
+
+            <div class="socials">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+          <p>
+            © <span id="year"></span> AfriConnect Summit. Tous droits réservés.
+          </p>
+
+          <a href="#" class="back-to-top"> ↑ </a>
+        </div>
+      </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

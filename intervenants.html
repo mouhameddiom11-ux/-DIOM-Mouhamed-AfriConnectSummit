@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet">
+    <link
+    rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css" >
+    <title>AfriConnect Summit - Intervenants</title>
+</head>
+<body>
+
+    <!--======================================================
+             barre de navigation communne a toutes les pages
+     ======================================================== -->
+    
+    <header>
+    <nav class="navbar">
+        <div class="container">
+
+            <div class="logo">
+                <img src="images/LogoAfriconnectSummit.png" alt="Logo AfriConnect" width="120">
+                <a href="index.html">AfriConnect</a>
+            </div>
+
+            <button class="burger" id="burger">
+                ☰
+            </button>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="programme.html">Programme</a></li>
+                    <li><a href="intervenants.html">Intervenants</a></li>
+                    <li><a href="contact.html">Inscription & Contact</a></li>
+                </ul>
+
+                <button id="theme-btn" class="theme-btn">☀️</button>
+            </div>
+
+        </div>
+    </nav>
+</header>
+<main>
+
+<!--===========================
+     section hero interne 
+=============================-->
+    <section class="hero-interne">
+    <div class="hero-container">
+        <div class="hero-title">
+            <h1>Nos intervenants</h1>
+            <p>Découvrez les experts qui partageront leurs connaissances et expériences lors de notre conférence.</p>
+     <div class="fil-darian">
+        <nav class="fil-arian">
+            <a href="index.html">Accueil</a>
+            <span>›</span>
+            <span class="active">Intervenants</span>
+        </nav>
+     </div>
+    </div>
+    </div>
+    </section>
+    <!--===================================
+        filtrage dynamique des intervenants
+      =====================================-->
+      <section class="intervenants-cards">
+
+    <h1>Nos intervenants</h1>
+
+
+    <!-- Boutons filtres -->
+    <div class="filters">
+
+        <button class="filter-btn active" data-filter="all">
+            Tous
+        </button>
+
+        <button class="filter-btn" data-filter="tech">
+            IA & Tech
+        </button>
+
+        <button class="filter-btn" data-filter="business">
+            Business
+        </button>
+
+        <button class="filter-btn" data-filter="design">
+            Design
+        </button>
+
+        <button class="filter-btn" data-filter="data">
+            Data
+        </button>
+
+    </div>
+
+
+    <!-- Cartes intervenants -->
+
+    <div class="intervenent-grid">
+
+
+        <div class="intervenant-card" data-category="tech">
+
+            <img src="images/amina-diallo.avif" alt="Amina Diallo">
+
+            <h2>Amina Diallo</h2>
+
+            <p>Experte IA & Innovation</p>
+
+            <span>IA & Tech</span>
+
+        </div>
+
+
+        <div class="intervenant-card" data-category="business">
+
+            <img src="images/intervenant.avif" alt="David Mensah">
+
+            <h2>David Mensah</h2>
+
+            <p>Entrepreneur numérique</p>
+
+            <span>Business</span>
+
+        </div>
+
+
+        <div class="intervenant-card" data-category="design">
+
+            <img src="images/sarah.avif" alt="Sarah Okoro">
+
+            <h2>Sarah Okoro</h2>
+
+            <p>UX Designer</p>
+
+            <span>Design</span>
+
+        </div>
+
+
+        <div class="intervenant-card" data-category="data">
+
+            <img src="images/intervenant-men.jpg" alt="Karim Ali">
+
+            <h2>Karim Ali</h2>
+
+            <p>Data Scientist</p>
+
+            <span>Data</span>
+
+        </div>
+
+
+    </div>
+
+</section>
+<section class="intervenants">
+    <h2>Nos intervenants </h2>
+
+    <div class="grille-intervenants">
+
+        <div class="carte-intervenant">
+            <img src="images/amina-diop.avif" alt="Amina Diop">
+            <h2>Amina Diop</h2>
+            <p>Intelligence Artificielle</p>
+            <span>Sénégal 🇸🇳</span>
+        </div>
+
+        <div class="carte-intervenant">
+            <img src="images/kofi.avif" alt="Kofi Mensah">
+            <h2>Kofi Mensah</h2>
+            <p>Entrepreneuriat Tech</p>
+            <span>Ghana 🇬🇭</span>
+        </div>
+
+        <div class="carte-intervenant">
+            <img src="images/fatou.avif" alt="Fatou Ndiaye">
+            <h2>Fatou Ndiaye</h2>
+            <p>Design UX/UI</p>
+            <span>Sénégal 🇸🇳</span>
+        </div>
+
+        <div class="carte-intervenant">
+            <img src="images/jean.avif" alt="Jean Kouassi">
+            <h2>Jean Kouassi</h2>
+            <p>Cybersécurité</p>
+            <span>Côte d'Ivoire 🇨🇮</span>
+        </div>
+
+        <div class="carte-intervenant">
+            <img src="images/tunisian.avif" alt="Nadia Ben Ali">
+            <h2>Nadia Ben Ali</h2>
+            <p>Data Science</p>
+            <span>Tunisie 🇹🇳</span>
+        </div>
+
+        <div class="carte-intervenant">
+            <img src="images/david.avif" alt="David Okoro">
+            <h2>David Okoro</h2>
+            <p>Blockchain</p>
+            <span>Nigeria 🇳🇬</span>
+        </div>
+
+        <div class="carte-intervenant">
+            <img src="images/mariam.avif" alt="Mariam Traoré">
+            <h2>Mariam Traoré</h2>
+            <p>Marketing Digital</p>
+            <span>Mali 🇲🇱</span>
+        </div>
+
+        <div class="carte-intervenant">
+            <img src="images/samuel.avif" alt="Samuel Kabore">
+            <h2>Samuel Kabore</h2>
+            <p>Cloud Computing</p>
+            <span>Burkina Faso 🇧🇫</span>
+        </div>
+
+        <div class="carte-intervenant">
+            <img src="images/aya.avif" alt="Aya Hassan">
+            <h2>Aya Hassan</h2>
+            <p>Innovation Numérique</p>
+            <span>Égypte 🇪🇬</span>
+        </div>
+
+    </div>
+</section>
+   </main>
+   
+    <!--==========================================
+           footer commune a toutes les pages 
+     ==============================================-->
+     
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Colonne 1 -->
+          <div class="footer-column">
+            <h2>AfriConnect Summit</h2>
+            <p>
+              La conférence panafricaine qui rassemble développeurs,
+              entrepreneurs et innovateurs pour construire l'Afrique numérique
+              de demain.
+            </p>
+          </div>
+
+          <!-- Colonne 2 -->
+          <div class="footer-column">
+            <h3>Liens utiles</h3>
+
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="programme.html">Programme</a></li>
+              <li><a href="intervenants.html">Intervenants</a></li>
+              <li><a href="sponsors.html">Sponsors</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Colonne 3 -->
+          <div class="footer-column">
+            <h3>Suivez-nous</h3>
+
+            <div class="socials">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+          <p>
+            © <span id="year"></span> AfriConnect Summit. Tous droits réservés.
+          </p>
+
+          <a href="#" class="back-to-top"> ↑ </a>
+        </div>
+      </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet">
+    <link
+    rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css" >
+    <title>AfriConnect Summit - Programme</title>
+</head>
+<body>
+
+     
+          <!--======================================================
+             barre de navigation communne a toutes les pages
+           ====================================================== -->
+
+    <header>
+    <nav class="navbar">
+        <div class="container">
+
+            <div class="logo">
+                <img src="images/LogoAfriconnectSummit.png" alt="Logo AfriConnect" width="120">
+                <a href="index.html">AfriConnect</a>
+            </div>
+
+            <button class="burger" id="burger">
+                ☰
+            </button>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="programme.html">Programme</a></li>
+                    <li><a href="intervenants.html">Intervenants</a></li>
+                    <li><a href="contact.html">Inscription & Contact</a></li>
+                </ul>
+
+                <button id="theme-btn" class="theme-btn">☀️</button>
+            </div>
+
+        </div>
+    </nav>
+</header>
+<main>
+   <!--==========================================================
+             section hero interne
+     ========================================================= -->
+<section class="hero-interne">
+    <div class="hero-container">
+        <div class="hero-title">
+            <h1>Nos intervenants</h1>
+        </div>
+        <h1>Decouvrez le programme</h1>
+    </div>
+    <div id="fil-d'arian">
+        <nav class="fil-arian">
+    <a href="index.html">Accueil</a>
+    <span>›</span>
+    <span class="current">Programme</span>
+</nav>
+    </div>
+</section>
+ <section class="programme">
+
+    <h1>Programme officiel</h1>
+
+    <p class="subtitle">
+        Découvrez les conférences, ateliers et sessions prévus pendant les trois jours d'AfriConnect Summit.
+    </p>
+
+    <!-- Onglets -->
+    <div class="tabs">
+
+        <button class="tab active" data-day="jour1">
+            Jour 1
+        </button>
+
+        <button class="tab" data-day="jour2">
+            Jour 2
+        </button>
+
+        <button class="tab" data-day="jour3">
+            Jour 3
+        </button>
+
+    </div>
+
+    <!-- ================= JOUR 1 ================= -->
+
+    <div class="planning active" id="jour1">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Heure</th>
+                    <th>Session</th>
+                    <th>Intervenant</th>
+                    <th>Salle</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>09:00</td>
+                    <td>Ouverture officielle</td>
+                    <td>Amina Diallo</td>
+                    <td>Auditorium</td>
+                </tr>
+
+                <tr>
+                    <td>10:00</td>
+                    <td>Intelligence Artificielle</td>
+                    <td>David Mensah</td>
+                    <td>Salle A</td>
+                </tr>
+
+                <tr>
+                    <td>11:30</td>
+                    <td>Pause Café</td>
+                    <td>-</td>
+                    <td>Hall</td>
+                </tr>
+
+                <tr>
+                    <td>13:00</td>
+                    <td>Cloud Computing</td>
+                    <td>Sarah Okoro</td>
+                    <td>Salle B</td>
+                </tr>
+
+                <tr>
+                    <td>15:00</td>
+                    <td>Networking</td>
+                    <td>Tous les participants</td>
+                    <td>Lounge</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- ================= JOUR 2 ================= -->
+
+    <div class="planning" id="jour2">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Heure</th>
+                    <th>Session</th>
+                    <th>Intervenant</th>
+                    <th>Salle</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>09:00</td>
+                    <td>Cybersécurité</td>
+                    <td>Fatou Ndiaye</td>
+                    <td>Salle A</td>
+                </tr>
+
+                <tr>
+                    <td>10:30</td>
+                    <td>Développement Web</td>
+                    <td>John Kamau</td>
+                    <td>Salle B</td>
+                </tr>
+
+                <tr>
+                    <td>12:00</td>
+                    <td>Déjeuner</td>
+                    <td>-</td>
+                    <td>Restaurant</td>
+                </tr>
+
+                <tr>
+                    <td>14:00</td>
+                    <td>Startup Pitch</td>
+                    <td>Invités</td>
+                    <td>Auditorium</td>
+                </tr>
+
+                <tr>
+                    <td>16:00</td>
+                    <td>Atelier React</td>
+                    <td>Grace Mensah</td>
+                    <td>Salle C</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- ================= JOUR 3 ================= -->
+
+    <div class="planning" id="jour3">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Heure</th>
+                    <th>Session</th>
+                    <th>Intervenant</th>
+                    <th>Salle</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>09:00</td>
+                    <td>DevOps</td>
+                    <td>Karim Ben Ali</td>
+                    <td>Salle A</td>
+                </tr>
+
+                <tr>
+                    <td>10:30</td>
+                    <td>Intelligence Artificielle avancée</td>
+                    <td>Nadia Fall</td>
+                    <td>Salle B</td>
+                </tr>
+
+                <tr>
+                    <td>12:00</td>
+                    <td>Pause Déjeuner</td>
+                    <td>-</td>
+                    <td>Hall</td>
+                </tr>
+
+                <tr>
+                    <td>14:00</td>
+                    <td>Remise des prix</td>
+                    <td>Comité d'organisation</td>
+                    <td>Auditorium</td>
+                </tr>
+
+                <tr>
+                    <td>16:00</td>
+                    <td>Clôture officielle</td>
+                    <td>Organisation</td>
+                    <td>Auditorium</td>
+                </tr>
+            </tbody>
+         </table>
+
+    </div>
+
+</section>
+
+<section class="themes">
+
+    <h2>Nos thématiques</h2>
+
+    <div class="themes-grid">
+
+        <div class="theme-card reveal">
+            <div class="icon">🤖</div>
+            <h3>Intelligence Artificielle</h3>
+            <p>
+                Explorer les nouvelles technologies IA
+                et leurs impacts sur l'Afrique.
+            </p>
+        </div>
+
+
+        <div class="theme-card reveal">
+            <div class="icon">☁️</div>
+            <h3>Cloud & Infrastructures</h3>
+            <p>
+                Découvrir les solutions cloud adaptées
+                aux entreprises modernes.
+            </p>
+        </div>
+
+
+        <div class="theme-card reveal">
+            <div class="icon">🔐</div>
+            <h3>Cybersécurité</h3>
+            <p>
+                Comprendre les enjeux de protection
+                des données numériques.
+            </p>
+        </div>
+
+
+        <div class="theme-card reveal">
+            <div class="icon">💻</div>
+            <h3>Développement Web</h3>
+            <p>
+                Créer les applications qui façonnent
+                le futur numérique.
+            </p>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+   </main>
+    <!--==========================================
+           footer commune a toutes les pages 
+     ==============================================-->
+    
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Colonne 1 -->
+          <div class="footer-column">
+            <h2>AfriConnect Summit</h2>
+            <p>
+              La conférence panafricaine qui rassemble développeurs,
+              entrepreneurs et innovateurs pour construire l'Afrique numérique
+              de demain.
+            </p>
+          </div>
+
+          <!-- Colonne 2 -->
+          <div class="footer-column">
+            <h3>Liens utiles</h3>
+
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="programme.html">Programme</a></li>
+              <li><a href="intervenants.html">Intervenants</a></li>
+              <li><a href="sponsors.html">Sponsors</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Colonne 3 -->
+          <div class="footer-column">
+            <h3>Suivez-nous</h3>
+
+            <div class="socials">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+          <p>
+            © <span id="year"></span> AfriConnect Summit. Tous droits réservés.
+          </p>
+
+          <a href="#" class="back-to-top"> ↑ </a>
+        </div>
+      </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
