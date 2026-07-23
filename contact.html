@@ -56,9 +56,9 @@
   =========================-->
 
     <section class="hero-contact">
-    <div class="hero-container">
-        <div class="hero-title">
-            <h1>Le rendez-vous de l'innovation africaine! Inscrivez-vous maintenant</h1>
+    <div class="hero-contact-container">
+        <div class="contact-title">
+            <h1>Le rendez-vous de <span>l'innovation africaine!</span> Inscrivez-vous maintenant</h1>
         </div>
      <div class="fil-darian">
         <nav class="fil-arian">
@@ -70,32 +70,40 @@
 
     </div>
     </section>
+    
     <section class="contact-section">
 
-    <div class="contact-container">
+      <div class="contact-title">
+         <h2>Inscription au sommet</h2>
+        </div>
 
+    <div class="contact-container">
+        
         <!-- FORMULAIRE -->
         <div class="formulaire">
 
-            <h2>Inscription au sommet</h2>
+        
 
             <form>
 
                 <div class="champ">
                     <label>Nom complet</label>
                     <input type="text" placeholder="Votre nom complet">
+                    <small id="nameError" class="text-danger"></small>
                 </div>
 
 
                 <div class="champ">
                     <label>Email</label>
                     <input type="email" placeholder="Votre email">
+                    <small id="emailError" class="text-danger"></small>
                 </div>
 
 
                 <div class="champ">
                     <label>Téléphone</label>
                     <input type="tel" placeholder="+221 xxx xxx xxx">
+                    <small id="telError" class="text-danger"></small>
                 </div>
 
 
@@ -138,15 +146,11 @@
                     <label>Message / Motivation</label>
 
                     <textarea 
-                    placeholder="Expliquez votre motivation..."
-                    rows="5"></textarea>
+                    placeholder="Expliquez votre motivation..." rows="5"></textarea>
+                     <small id="messageError" class="text-danger"></small>
 
                 </div>
-
-
-                <button type="submit">
-                    Envoyer l'inscription
-                </button>
+               <button type="submit"> Envoyer l'inscription</button>
 
             </form>
 
